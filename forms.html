@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="static/css/forms.css">
+    <link rel="shortcut icon" href="static/images/arnold-francisca-f77Bh3inUpE-unsplash.jpg" type="image/x-icon">
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <div class="form-box">
+        <form autocomplete="on" autocorrect="on" autocapitalize="on">
+            <h2>Create an account</h2>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" required placeholder="Enter First Name">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" required placeholder="Enter Last name">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required placeholder="eg=example@gmail.com">
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+            <label for="pass">password</label>
+            <input type="password" id="pass" name="pass" min="4" max="8" required>
+            <label for="cpass">Confirm password</label>
+            <input type="password" id="cpass" name="cpass" min="4" max="8" required>
+            <label for="Male">male</label>
+            <input type="radio" id="male" name="gender" >
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" >
+            <label for="non-binary">Non-binary</label>
+            <input type="radio" id="non-binary" name="gender" >
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    
+</body>
+</html>

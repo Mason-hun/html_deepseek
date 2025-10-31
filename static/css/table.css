@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(194, 167, 159);
+}
+
+.heading {
+    color: rgb(0, 238, 255);
+    font-size: 80px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 70%;
+    border-style: solid;
+    border-collapse: collapse ;
+    margin-left: auto;
+    margin-right: auto ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th,td{
+border: 2px solid red;
+padding: 10px;
+
+}
+
