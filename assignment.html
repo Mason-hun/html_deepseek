@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="static/css/assignment.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant home page</title>
+  <meta charset="UTF-8">
+  <title>Restaurant Home Page</title>
+  <link rel="stylesheet" href="static/css/assignment.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <ul>
-        <li>Yummy</li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Chefs</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Dropdown</a></li>
-        <li><a href="#">contact</a></li>
-        <li><button>Book a table</button></li>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">Yummy</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Chefs</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Dropdown</a></li>
+      <li><a href="#">Contact</a></li>
     </ul>
-    
+    <button class="booking">Book a Table</button>
+  </div>
 
-    <br><br>
-    <h1>Enjoy Your Healthy Delicious Food</h1>
-    <p>We are a team of talented designers making websites with bootstrap</p>
-    <br><br>
-    <button>Book a table</button>
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Enjoy Your Healthy Delicious Food</h1>
+        <p>We are a team of talented designers making websites with Bootstrap.</p>
+        <div class="hero-buttons">
+          <button class="booking">Book a Table</button>
+          <button class="video">Watch a Video</button>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="static/images/plate.png" alt="Plate of some yummy dish">
+      </div>
+    </div>
+  </div>
 
-    <br><br>
-    <img src="static/images/plate.png" alt="Plate of some yummy dish" width="100" height="100">
+  <!-- About Section -->
+  <div class="about">
+    <h2>LEARN MORE <span>ABOUT US</span></h2>
+  </div>
+
 </body>
 </html>
